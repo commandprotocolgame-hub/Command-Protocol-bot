@@ -8,7 +8,8 @@ from pathlib import Path
 
 log = logging.getLogger("CommandProtocol.Config")
 
-CONFIG_PATH = Path(__file__).parent.parent / "config.json"
+LOCAL_CONFIG_PATH = Path(__file__).parent.parent / "config.json"
+RENDER_CONFIG_PATH = Path("/etc/secrets/config.json")
 
 DEFAULT_CONFIG = {
     "BOT_TOKEN": "YOUR_BOT_TOKEN_HERE",
@@ -29,15 +30,22 @@ class Config:
         self._load()
 
     def _load(self):
-        if not CONFIG_PATH.exists():
+        if RENDER_CONFIG_PATH.exists():
+            config_path = RENDER_CONFIG_PATH
+            log.info("Using Render secret config.")
+        elif LOCAL_CONFIG_PATH.exists():
+            config_path = LOCAL_CONFIG_PATH
+            log.info("Using local config.json.")
+        else:
             log.warning("config.json not found — creating default config.")
-            with open(CONFIG_PATH, "w") as f:
+            with open(LOCAL_CONFIG_PATH, "w") as f:
                 json.dump(DEFAULT_CONFIG, f, indent=4)
             self._data = DEFAULT_CONFIG.copy()
-        else:
-            with open(CONFIG_PATH, "r") as f:
-                self._data = json.load(f)
-            log.info("Config loaded successfully.")
+            return
+
+        with open(config_path, "r") as f:
+            self._data = json.load(f)
+        log.info("Config loaded successfully.")
 
     def get(self, key: str, fallback=None):
         return self._data.get(key, fallback)
