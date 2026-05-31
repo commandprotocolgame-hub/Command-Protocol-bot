@@ -1,0 +1,20 @@
+{
+    "1510591586327728289": [
+        {
+            "action": "PURGE",
+            "moderator": "._.sn1per._.",
+            "target": "💬chat",
+            "reason": "Deleted 34 message(s)",
+            "extra": "",
+            "timestamp": "2026-05-31T16:38:31.737573"
+        },
+        {
+            "action": "PURGE",
+            "moderator": "._.sn1per._.",
+            "target": "🎫updates",
+            "reason": "Deleted 2 message(s)",
+            "extra": "",
+            "timestamp": "2026-05-31T17:01:04.680245"
+        }
+    ]
+}

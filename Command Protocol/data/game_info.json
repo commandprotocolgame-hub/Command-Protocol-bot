@@ -1,0 +1,10 @@
+{
+    "name": "Command Protocol",
+    "tagline": "Wage war. Build empires. Control the field.",
+    "description": "Command Protocol is a tactical real-time strategy game set in a near-future world fractured by corporate warfare and armed rebellion. Players command elite military forces or join the decentralized Rebel Movement to seize control of strategic nodes across a devastated globe.\n\nBuild bases, deploy specialized units, research advanced weaponry, and outmaneuver your enemies through superior strategy. Every decision carries weight. Every resource matters. Victory belongs to the most disciplined commander.",
+    "genre": "Real-Time Strategy",
+    "platform": "PC (Windows / Linux)",
+    "status": "In Development — Alpha Phase",
+    "version": "0.4.2-alpha",
+    "developer": "Command Protocol Dev Team"
+}

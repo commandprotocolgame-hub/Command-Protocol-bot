@@ -1,0 +1,45 @@
+{
+    "phases": [
+        {
+            "name": "Phase 1 — Foundation",
+            "status": "complete",
+            "items": [
+                "Engine setup & core architecture",
+                "Movement, selection, and command systems",
+                "Resource extraction & economy",
+                "Basic HUD and UI framework"
+            ]
+        },
+        {
+            "name": "Phase 2 — Combat & Factions",
+            "status": "active",
+            "items": [
+                "Combat resolution engine",
+                "Fog of war & vision system",
+                "Army faction full unit roster",
+                "Rebel faction unique mechanics",
+                "Terrain & cover system"
+            ]
+        },
+        {
+            "name": "Phase 3 — Multiplayer & Polish",
+            "status": "upcoming",
+            "items": [
+                "Multiplayer networking layer",
+                "Ranked matchmaking system",
+                "Balance pass — all factions",
+                "Sound design & score"
+            ]
+        },
+        {
+            "name": "Phase 4 — Campaign & Release",
+            "status": "upcoming",
+            "items": [
+                "Campaign mode — 12 missions",
+                "Full tutorial sequence",
+                "Performance optimization",
+                "Early Access launch"
+            ]
+        }
+    ]
+}

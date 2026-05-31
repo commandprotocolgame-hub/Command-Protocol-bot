@@ -1,0 +1,7 @@
+{
+    "title": "Alpha Systems — First Contact",
+    "content": "• Core movement and pathfinding engine is operational.\n• Unit selection and command system implemented.\n• Basic resource extraction nodes placed on Test Map 01.\n• Army faction HQ building prototype is in-engine.\n• Rebel faction guerrilla spawn logic drafted.\n• Next up: combat resolution system and fog of war.",
+    "author": "Lead Developer",
+    "date": "June 1, 2025",
+    "timestamp": "2025-06-01T00:00:00"
+}

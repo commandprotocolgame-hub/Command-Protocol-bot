@@ -1,0 +1,29 @@
+{
+    "version": "v0.1",
+    "current_objective": "Playable base",
+    "overall_percent": 20,
+    "completed": [
+        "Project scaffolding & engine setup",
+        "Core movement & pathfinding engine",
+        "Unit selection and command framework",
+        "Resource extraction system",
+        "Basic UI / HUD prototype",
+        "Army faction HQ building",
+        "Map editor (internal)",
+        "Lobby / session system"
+    ],
+    "in_progress": [
+        "combat system 20%",
+        "UI 10%",
+        "AI 5%",
+        "RTS camera 100%",
+        "Unit Selection 100%"
+    ],
+    "upcoming": [
+        "Multiplayer networking layer",
+        "Campaign mode — Chapter 1",
+        "Full faction tech trees",
+        "Sound design & music",
+        "Official map pack (10 maps)"
+    ]
+}
