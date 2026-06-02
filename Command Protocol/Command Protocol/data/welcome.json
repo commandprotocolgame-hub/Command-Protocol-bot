@@ -1,0 +1,12 @@
+{
+    "enabled": true,
+    "channel_id": 1510924126796382289,
+    "dm_enabled": true,
+    "dm_message": "Welcome to **Command Protocol**, {mention}!\n\nHead to the server and pick your faction with `/join army` or `/join rebels`.\nUse `/about` to learn about the game and `/roadmap` to see what's coming.\n\nGood luck on the battlefield, Commander.",
+    "title": "NEW OPERATIVE DETECTED",
+    "message": "```\nINCOMING TRANSMISSION\nNEW OPERATIVE JOINED THE SERVER\n```\n\nWelcome to **Command Protocol**, {mention}! 🖥️\n\nYou are recruit number **#{member_count}** to enter this command terminal.\n\n**Get started:**\n⚔️  Pick your side — `/join army` or `/join rebels` In Verification\n📡  Learn about the game — `/about`\n🗺️  See what's coming — `/roadmap`\n💡  Share ideas — `/suggest`\n\nWelcome to the fight, Commander.",
+    "color": 65415,
+    "show_avatar": true,
+    "show_member_count": true,
+    "auto_role_id": null
+}

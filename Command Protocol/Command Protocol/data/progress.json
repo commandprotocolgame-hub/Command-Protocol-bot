@@ -1,0 +1,27 @@
+{
+    "version": "v0.1",
+    "current_objective": "Playable base",
+    "overall_percent": 20,
+    "completed": [
+        "Basic UI/HUD",
+        "RTS System",
+        "Unit Selection",
+        "Unit Movement",
+        "Health System",
+        "Terrain",
+        "Basic game core"
+    ],
+    "in_progress": [
+        "combat system 20%",
+        "Max UI 10%",
+        "AI 5%"
+    ],
+    "upcoming": [
+        "Campaign Mode",
+        "Air troops",
+        "Tanks",
+        "Buildings and their functions",
+        "econemy",
+        "Advanced game core"
+    ]
+}
